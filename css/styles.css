@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navegation */
+
+.header_container{
+    mix-blend-mode: overlay;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    background-color: #F3CDA9;
+    padding: 10px;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+.logo{
+    border-radius: 50%;
+    width: 272px;
+    height: 265px;
+    left: 64px;
+    top: 19px;
+    background:#F38B69;
+}
+.reader{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 231px;
+    height: 206px;
+    left: 105px;
+    top: 44px;
+}
+.header_items li{
+    list-style: none;
+    margin-right: 100px;
+}
+.header_items li a{
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 67px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header_items li a:hover{
+    font-weight: bolder;
+}
+/* Book store */
+
+.books_container{
+    background: #F3CDA9;
+    box-sizing: border-box;
+    padding:30px;
+}
+
+.books_square{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.books_square div{
+    width: 372px;
+    height: 481px;
+    left: 96px;
+    top: 342px;
+    background: #FFFBFB;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+    border-radius: 57px;
+}
+
+.books_square div img{
+    margin-left: 34px;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+.footer_container{
+    width: 1440px;
+    height: 123px;
+    left: 0px;
+    top: 911px;
+    background: #000000;
+}
+
+.wrapper_footer footer{
+    /* margin-left: 1100px; */
+    margin-left: 60px;
+    padding-top: 15px;
+}
